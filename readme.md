@@ -68,7 +68,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 <img src="images/breakdownschetsiphone.jpg" width="375px" alt="Breakdown-schets iPhone">
 
-<img src="images/breakdownschetsdetail" width="375px" alt="Breakdown-schets in detail uitgewerkt">
+<img src="images/breakdownschetsdetail.jpg" width="375px" alt="Breakdown-schets in detail uitgewerkt">
 
 
 ## Intake (week 1)
