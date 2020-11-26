@@ -42,15 +42,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-<img src="images/sc1.PNG" width="375px" alt="screenshot 1">
+<img src="images/sc1.png" width="375px" alt="screenshot 1">
 
-<img src="images/sc2.PNG" width="375px" alt="screenshot 2">
+<img src="images/sc2.png" width="375px" alt="screenshot 2">
 
-<img src="images/sc3.PNG" width="375px" alt="screenshot 3">
+<img src="images/sc3.png" width="375px" alt="screenshot 3">
 
-<img src="images/sc4.PNG" width="375px" alt="screenshot 4">
+<img src="images/sc4.png" width="375px" alt="screenshot 4">
 
-<img src="images/sc5.PNG" width="375px" alt="screenshot 5">
+<img src="images/sc5.png" width="375px" alt="screenshot 5">
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
