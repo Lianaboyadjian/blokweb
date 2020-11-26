@@ -1,5 +1,277 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #e3e3e3;
+}
+
+.navbar {
+    overflow: auto;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 75%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+
+
+
+
+.headerfoto {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerfoto img {
+    max-width: 125%;
+    height: auto;
+    top: 0;
+}
+
+
+.headerfoto h2 {
+    position: relative;
+    bottom: 250px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    background-color: #5f2f9e;
+    padding: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.disturbing {
+    display: flex;
+    flex-direction: column;
+}
+
+.disturbing h2 {
+    color: #5f2f9e;
+    font-size: 75px;
+    font-family: 'Teko', sans-serif;
+    margin-bottom: -70px;
+    margin-top: -470px;
+    margin-left: 15px;
+
+}
+
+.disturbing img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+
+.transform {
+    display: flex;
+    flex-direction: column;
+}
+
+.transform h3 {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 370px;
+    text-align: center;
+}
+
+.everyday h3 {
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.readbutton {
+    display: flex;
+    flex-direction: column;
+}
+
+.readbutton h3 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    background-color: #5f2f9e;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.keukenfoto {
+    display: flex;
+    flex-direction: column;
+}
+
+.keukenfoto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.keukenfoto h3 {
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.opsomming {
+    position: relative;
+}
+
+.opsomming h3 {
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.annika {
+    display: flex;
+    flex-direction: column;
+}
+
+.annika h4 {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 300;
+}
+
+.voguebutton {
+    display: flex;
+    flex-direction: column;
+}
+
+.voguebutton h3 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    background-color: #5f2f9e;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.justdropped {
+    display: flex;
+    flex-direction: column;
+}
+
+.justdropped h3 {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.new {
+    display: flex;
+    flex-direction: column;
+}
+
+.new h3 {
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.hashtag {
+    display: flex;
+    flex-direction: column;
+}
+
+.hashtag h3 {
+    color: #ae36d6;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+}
+
+.follow h3 {
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter style {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+
 

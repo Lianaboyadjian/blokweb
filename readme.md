@@ -38,11 +38,23 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-Veel moeite gehad met opstarten, kon me niet veel meer herinneren van jaar 1. Hulp gekregen van klasgenoten en veel opgezocht in het boek en op internet en toen eindelijk een start gemaakt. Toen ik het weer een beetje begreep, ging het een stuk beter en kon ik lekker doorwerken. Uiteindelijk wel weer vastgelopen bij de footer. -
 
 **Screenshot(s):**
 
+<img src="images/sc1.PNG" width="375px" alt="screenshot 1">
+
+<img src="images/sc2.PNG" width="375px" alt="screenshot 2">
+
+<img src="images/sc3.PNG" width="375px" alt="screenshot 3">
+
+<img src="images/sc4.PNG" width="375px" alt="screenshot 4">
+
+<img src="images/sc5.PNG" width="375px" alt="screenshot 5">
+
 -screenshot(s) van hoe ver je bent met korte uitleg-
+
+Ik krijg nu wel de afbeeldingen goed op hun plek en de teksten in verschillende formaten en fonts gaat ook goed. Er komt nu wel javascript bij om de slideshow te maken en om de tekst door het beeld te laten lopen. Daar heb ik waarschijnlijk hulp bij nodig. Ook de footer en het stukje daarvoor heb ik moeite mee.
 
 ### Agenda voor meeting
 
