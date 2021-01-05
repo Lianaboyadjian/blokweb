@@ -6,21 +6,42 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://www.busterandpunch.com
+2. https://www.w3schools.com
+
 
 
 
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+De twee weken voor de vakantie heb ik het heel druk gehad met andere vakken en werd ik ziek. Frontend schoot er hierdoor een beetje bij in. Ik heb wel nog veel verbeteringen kunnen doen aan de hand van voortgangsgesprek 1. De pagina's zijn beide niet af. Er mist nog een footer en een hamburgermenu. Ook werken bepaalde buttons nog niet. Ik heb wel een goed overzicht van wat er nog moet gebeuren en hoop dit in mijn herkansing te laten zien.
 
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
 
+<img src="images/scwebsite1.png" width="375px" alt="Landingspagina Busterandpunch">
 
+<img src="images/scwebsite2.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scwebsite3.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scwebsite4.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scwebsite5.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scwebsite6.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scwebsite7.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scwebsite8.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scwebsite9.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scwebsite10.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scwebsite11.png" width="375px" alt="Landingspagina Busterandpunch">
 
 ## Voortgang 3 (week 6)
 
