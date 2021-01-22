@@ -1,7 +1,10 @@
 /* CSS Document */
 *,
+/* ::after Voeg iets in na de inhoud van elk <p> -element*/
 *::after,
+/*::before Voeg iets in vóór de inhoud van elk <p> -element*/
 *::before {
+    /* box sizing border-box definieert hoe de breedte en hoogte van een element worden berekend worden: moeten ze opvulling en randen bevatten of niet*/
     box-sizing: border-box;
 }
 
@@ -19,28 +22,25 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 75%;
+    opacity: 80%;
     z-index: 1000;
 }
 
 .logo img {
-    height: 42px;
-    width: 152px;
-    padding-left: 13px;
-    padding-top: 7px;
+    height: 2.5em;
+    width: 10em;
+    padding-left: 1em;
+    padding-top: 0.4em;
 }
 
 .navbar a {
-    float: right;
     display: block;
-    color: #000000;
-    padding-right: 13px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 30px;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 10px;
+    padding-left: 3em;
+    padding-top: 0.8em;
+}
+
+.navbar a img {
+    width: 1em;
 }
 
 .headerfoto {
@@ -49,23 +49,25 @@ body {
 }
 
 .headerfoto img {
-    max-width: 125%;
-    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: auto;
     top: 0;
 }
 
 
 .headerfoto h2 {
+    /* relative is gepositioneerd relatief van zijn normale positie*/
     position: relative;
-    bottom: 250px;
+    bottom: 15.62em;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 0.93em;
     font-weight: 600;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.08em;
     background-color: #5f2f9e;
-    padding: 20px;
-    margin-left: 70px;
-    margin-right: 70px;
+    padding: 1.5em;
+    margin-left: 4em;
+    margin-right: 4em;
     text-align: center;
 }
 
@@ -78,16 +80,19 @@ body {
     color: #5f2f9e;
     font-size: 5.1em;
     font-family: 'Teko', sans-serif;
-    margin-bottom: -70px;
-    margin-top: -550px;
-    margin-left: 15px;
+    margin-bottom: -6.5em;
+    margin-top: -6.6em;
+    margin-left: 0.3em;
 
 }
 
 .disturbing img {
+    /*maximale breedte van een element*/
     max-width: 100%;
+    /*height: het element zal automatisch de hoogte aanpassen om de inhoud
+    correct weer te geven*/
     height: auto;
-    margin-top: 100px;
+    margin-top: 7em;
 }
 
 
@@ -98,19 +103,19 @@ body {
 
 .transform h3 {
     color: #000000;
-    font-size: 12px;
-    letter-spacing: 2px;
-    margin-top: 420px;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    margin-top: 43em;
     text-align: center;
 }
 
 .everyday h3 {
     color: #000000;
-    font-size: 15px;
-    letter-spacing: 2px;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 0.9em;
+    letter-spacing: 0.3em;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
     text-align: center;
     font-weight: bolder;
 }
@@ -122,19 +127,20 @@ body {
 
 .readbutton h3 {
     color: #ffffff;
-    font-size: 15px;
+    font-size: 1em;
     font-weight: 900;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.1em;
     background-color: #5f2f9e;
-    padding: 20px;
-    margin-top: 40px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 100px;
+    padding: 1.5em;
+    margin-top: 3.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 5em;
     text-align: center;
 }
 
 .keukenfoto {
+    /* zet inhoud onder elkaar*/
     display: flex;
     flex-direction: column;
 }
@@ -147,7 +153,7 @@ body {
 .keukenfoto h3 {
     color: #000000;
     font-family: 'Teko', sans-serif;
-    font-size: 45px;
+    font-size: 3.2em;
     text-align: center;
     font-weight: 400;
 }
@@ -158,9 +164,8 @@ body {
 
 .opsomming h3 {
     color: #000000;
-    font-size: 14px;
-    letter-spacing: 1px;
-    margin-top: 0px;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
     text-align: center;
     font-weight: bolder;
 }
@@ -172,12 +177,12 @@ body {
 
 .annika p {
     color: #000000;
-    font-size: 12px;
-    letter-spacing: 2px;
-    margin-top: 25px;
+    font-size: 0.7em;
+    letter-spacing: 0.125em;
+    margin-top: 1.5em;
     text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
     font-weight: 300;
 }
 
@@ -188,15 +193,13 @@ body {
 
 .voguebutton h3 {
     color: #ffffff;
-    font-size: 15px;
+    font-size: 0.93em;
     font-weight: 900;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.09em;
     background-color: #5f2f9e;
-    padding: 20px;
-    margin-top: 40px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 30px;
+    padding: 1.25em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
     text-align: center;
 }
 
@@ -207,9 +210,9 @@ body {
 
 .justdropped h3 {
     color: #000000;
-    font-size: 12px;
-    letter-spacing: 2px;
-    margin-top: 60px;
+    font-size: 0.75em;
+    letter-spacing: 0.12em;
+    margin-top: 6em;
     text-align: center;
 }
 
@@ -221,46 +224,49 @@ body {
 .new h3 {
     color: #000000;
     font-family: 'Teko', sans-serif;
-    font-size: 45px;
+    font-size: 2.81em;
     text-align: center;
     font-weight: 400;
-    margin-top: 5px;
+    margin-top: 0.31em;
 }
 
 ul {
-    margin: 0.5em;
+    margin: 0.7em;
     padding: 0;
+    /*overflow-x en y specificeert of de inhoud wordt geknipt, scrollbalk wordt toegevoegd etc.*/
     overflow-x: scroll;
     overflow-y: hidden;
+    /* whitespace specificeert hoe tekst wordt behandeld op het element waar het op wordt toegepast. Nowrap voorkomt dat de tekst wordt 'gewrapt'*/
     white-space: nowrap;
+    /* list-style none is geen bulletpoints of numbers*/
     list-style: none;
-    /*   font-size: 0;  */
 }
 
 ul li {
+    /* display inline-block staat toe dat je een hoogte en breedte kan geven aan het element. Het element kan ook naast andere elementen staan, het verschil met display block*/
     display: inline-block;
-    width: 210px;
+    width: 13.12em;
     background-color: #e3e3e3;
 }
 
 ul li img {
-    max-width: 95%;
+    max-width: 97%;
 }
 
 ul li h3 {
     color: #000000;
-    font-size: 12px;
-    letter-spacing: 1px;
-    margin-top: 20px;
+    font-size: 0.75em;
+    letter-spacing: 0.07em;
+    margin-top: 1.25em;
     text-align: center;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 ul li p {
     color: #000000;
-    font-size: 14px;
-    letter-spacing: 1px;
-    margin-top: 15px;
+    font-size: 0.87em;
+    letter-spacing: 0.06em;
+    margin-top: 0.93em;
     text-align: center;
     font-weight: 300;
 }
@@ -272,11 +278,11 @@ ul li p {
 
 .hashtag h3 {
     color: #ae36d6;
-    font-size: 15px;
+    font-size: 0.93em;
     font-weight: 900;
-    letter-spacing: 3px;
-    margin-top: 60px;
-    margin-bottom: 5px;
+    letter-spacing: 0.18em;
+    margin-top: 3.75em;
+    margin-bottom: 0.31em;
     text-align: center;
     text-decoration: underline;
 }
@@ -289,54 +295,199 @@ ul li p {
 .follow h3 {
     color: #000000;
     font-family: 'Teko', sans-serif;
-    font-size: 45px;
+    font-size: 2.81em;
     text-align: center;
     font-weight: 400;
-    margin-top: 0px;
-    margin-bottom: 25px;
+    margin-top: 0;
+    margin-bottom: 0.6em;
 }
 
-.column {
+.insta-fotos ul {
     display: flex;
-    float: left;
-    width: 50%;
-    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.insta-fotos ul li {
+    flex: 0 50%;
+}
+
+.loadmore {
+    display: flex;
+    flex-direction: column;
+}
+
+.loadmore a {
+    color: #000000;
+    text-decoration: underline;
+    top: 7em;
 }
 
 .newsletter img {
     max-width: 100%;
     height: auto;
-    margin-top: 100px;
+    margin-top: 6.25em;
 }
 
 .newsletter h2 {
     color: #ffffff;
     font-family: 'Teko', sans-serif;
-    font-size: 53px;
+    font-size: 3.31em;
     text-align: center;
     font-weight: 400;
-    margin-top: -300px;
-    margin-bottom: 25px;
-    line-height: 42px;
-    letter-spacing: 0.2px;
-
+    margin-top: -6em;
+    line-height: 0.8em;
 }
 
 .newsletter h4 {
     color: #ffffff;
-    font-size: 17px;
-    letter-spacing: 1.5px;
-    margin-top: 35px;
-    margin-bottom: 10px;
+    font-size: 1.06em;
+    letter-spacing: 0.1em;
+    margin-top: 2.18em;
     text-align: center;
     font-weight: 400;
 }
 
 .newsletter p {
     color: #ffffff;
-    font-size: 12px;
-    letter-spacing: 1px;
-    margin-top: 5px;
+    font-size: 0.8em;
+    letter-spacing: 0.07em;
+    margin-top: 0.1em;
     text-align: center;
     font-weight: 300;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2.4em;
+    padding-right: 2.4em;
+}
+
+input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: none;
+    /* border radius specificeert de radius van de hoeken van het element*/
+    border-radius: 0;
+    box-shadow: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.8em;
+    font-weight: 100;
+    color: #ffffff;
+    padding-left: 1em;
+    padding-right: 1em;
+    letter-spacing: .075em;
+    /*appearance wordt gebruikt om een element weer te geven door middel van een platformeigen stijl op basis van het besturingssysteem van de gebruiker*/
+    appearance: none;
+    /* outline is een lijn die rond element wordt gezet buiten de borders om, om het element op te laten vallen*/
+    outline: none;
+    transition: 0.3s;
+}
+
+/* selecteert elk input element dat begint met input*/
+input[type="email"]:focus {
+    border-bottom: 1px solid #fff;
+}
+
+
+/*# is een #id, selecteert het element met id="iets"*/
+#email-label {
+    /*translate () positioneert een element in horizontale of verticale directions. Y'as X'as*/
+    transform: translateY(5px);
+    transition: 0.3s;
+    color: #a8a8a8;
+    font-size: 0.8em;
+    padding-left: 0.1em;
+    padding-top: 2em;
+    padding-bottom: 0.8em;
+}
+
+#email-label.focus {
+    transform: translateY(-10px);
+}
+
+.logozwart {
+    display: flex;
+    flex-direction: column;
+}
+
+.logozwart img {
+    max-width: 100%;
+    margin-top: 2.5em;
+}
+
+.footer {
+    background-color: #000000;
+    margin-top: -0.5em;
+}
+
+.footer h4 {
+    color: #ffffff;
+    letter-spacing: 0.15em;
+    margin-left: 1em;
+    padding-top: 0.15em;
+    padding-bottom: 0.15em;
+}
+
+.footer hr {
+    margin-left: 1em;
+    margin-right: 1em;
+    border-top: 0.08em;
+}
+
+.footer p {
+    color: #ffffff;
+    margin-left: 1em;
+    font-size: 0.8em;
+    font-weight: 100;
+    padding-top: 3em;
+}
+
+.fa {
+    width: 3.5em;
+    margin-left: 0.5em;
+    padding-left: 2.1em;
+    margin-top: 4em;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* :hover selecteert een link als je erover heen gaat*/
+.fa:hover {
+    color: purple;
+}
+
+
+.fa-facebook {
+    background: #000000;
+    color: #ffffff;
+}
+
+.fa-pinterest {
+    background: #000000;
+    color: #ffffff;
+}
+
+.fa-instagram {
+    background: #000000;
+    color: #ffffff;
+}
+
+.fa-twitter {
+    background: #000000;
+    color: #ffffff;
+}
+
+.fa-youtube {
+    background: #000000;
+    color: #ffffff;
+}
+
+.footer h6 {
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 0.2em;
+    margin-top: 6em;
+    bottom: 0;
+    color: #ffffff;
 }

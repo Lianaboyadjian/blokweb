@@ -8,8 +8,47 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. https://www.busterandpunch.com
 2. https://www.w3schools.com
+3. Colorpicker google
+4. Codepen
+5. Google afbeeldingen
+6. https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onfocus_eventdelegation
 
+## Herkansingsgesprek (week 9)
+-Verbeterpunten uit eindgesprek-
+De punten die ik heb verbeterd:
+1. Iconen maken in de navbar ipv tekst linkjes
+2. Alle pixels naar em
+3. Collage social media foto's in list vorm ipv div
+4. E-mail balk mooi maken
+5. Javascript ergens verwerken
+6. Alle afbeeldingen responsive
+7. Filterbuttons in motorcycle shop
+8. Footer
+9. Socialmedia buttons
+10. Socialmedia buttons hover
 
+**Screenshot(s):**
+-screenshot(s) van je eindresultaat-
+
+<img src="images/scherm1.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scherm2.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scherm3.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scherm4.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scherm5.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scherm6.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scherm7.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scherm8.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scherm9.png" width="375px" alt="Landingspagina Busterandpunch">
+
+<img src="images/scherm10.png" width="375px" alt="Landingspagina Busterandpunch">
 
 
 ## Eindgesprek (week 7/8)
