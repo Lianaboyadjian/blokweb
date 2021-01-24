@@ -56,7 +56,7 @@ body {
 }
 
 
-.headerfoto h2 {
+.headerfoto a {
     /* relative is gepositioneerd relatief van zijn normale positie*/
     position: relative;
     bottom: 15.62em;
@@ -69,6 +69,7 @@ body {
     margin-left: 4em;
     margin-right: 4em;
     text-align: center;
+    text-decoration: none;
 }
 
 .disturbing {
@@ -125,7 +126,7 @@ body {
     flex-direction: column;
 }
 
-.readbutton h3 {
+.readbutton a {
     color: #ffffff;
     font-size: 1em;
     font-weight: 900;
@@ -137,6 +138,7 @@ body {
     margin-right: 1em;
     margin-bottom: 5em;
     text-align: center;
+    text-decoration: none;
 }
 
 .keukenfoto {
@@ -191,7 +193,7 @@ body {
     flex-direction: column;
 }
 
-.voguebutton h3 {
+.voguebutton a {
     color: #ffffff;
     font-size: 0.93em;
     font-weight: 900;
@@ -201,6 +203,7 @@ body {
     margin-left: 1.5em;
     margin-right: 1.5em;
     text-align: center;
+    text-decoration: none;
 }
 
 .justdropped {
@@ -421,12 +424,13 @@ input[type="email"]:focus {
     margin-top: -0.5em;
 }
 
-.footer h4 {
+.footer a {
     color: #ffffff;
     letter-spacing: 0.15em;
     margin-left: 1em;
     padding-top: 0.15em;
     padding-bottom: 0.15em;
+    text-decoration: none;
 }
 
 .footer hr {

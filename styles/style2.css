@@ -196,13 +196,14 @@ body {
     margin-top: -0.5em;
 }
 
-.footer h4 {
+.footer a {
     color: #ffffff;
     letter-spacing: 0.15em;
     font-weight: 400;
     margin-left: 1em;
-    padding-top: 0.15em;
-    padding-bottom: 0.15em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-decoration: none;
 }
 
 .footer hr {
